@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Signup">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="300dp"
+        android:layout_below="@+id/scrollable1"
+        android:background="@drawable/strip1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/logo1"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/scrollable1"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:id="@+id/first">
+
+                <EditText
+                    android:id="@+id/Bcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:hint="Book Code" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:layout_marginTop="15dp"
+
+                android:layout_below="@+id/first"
+                android:id="@+id/second">
+
+                <EditText
+                    android:id="@+id/Bname"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:hint="Book Name"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:layout_below="@+id/second"
+                android:layout_marginTop="15dp"
+
+                android:id="@+id/third">
+
+                <EditText
+                    android:id="@+id/bauthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:hint="Book Author" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:layout_below="@+id/third"
+                android:layout_marginTop="15dp"
+
+                android:id="@+id/four">
+
+                <EditText
+                    android:id="@+id/bprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:hint="Book Price" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:layout_marginTop="15dp"
+
+                android:layout_below="@+id/four"
+                android:id="@+id/five">
+                <Spinner
+                    android:dropDownWidth="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:id="@+id/s_sem"
+
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:layout_below="@+id/five"
+                android:layout_marginTop="15dp"
+
+                android:id="@+id/six">
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:dropDownWidth="100dp"
+
+                    android:id="@+id/s_deptment"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loginbackground"
+                android:padding="15dp"
+                android:layout_below="@+id/six"
+                android:layout_marginTop="15dp"
+
+                android:id="@+id/seven">
+
+                <EditText
+                    android:id="@+id/bcount"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@null"
+                    android:hint="Book Count" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/s_signup"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seven"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/backgroundbutton"
+                android:text="Add Book"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

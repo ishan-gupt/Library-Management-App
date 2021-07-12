@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/one"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Book 1                                :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/p_book1"
+            android:text="Book1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/two"
+        android:layout_below="@+id/one"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Book 2                               :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="Book2"
+            android:id="@+id/p_book2"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/three"
+        android:layout_below="@+id/two"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Book 1 issue Date           :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="Book1date"
+            android:id="@+id/p_book1_issuedate"
+
+            />
+
+    </LinearLayout>
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+            android:id="@+id/four"
+            android:layout_below="@+id/three"
+            android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Book 2 issue Date          :      "
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="Book2date"
+        android:id="@+id/p_book2_issuedate"
+        />
+
+</LinearLayout> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+        android:id="@+id/five"
+        android:layout_below="@+id/four"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Book 1 Submit Date       :      "
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="Book 1 submit date"
+        android:id="@+id/p_book1_submitdate"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/six"
+        android:layout_below="@+id/five"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Book 2 Submit Date       :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="Book 2 submit date"
+            android:id="@+id/p_book2_submitdate"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/seven"
+            android:layout_below="@+id/six"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Book 1 Fine                     :      "
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:text="Book 1 fine"
+                android:id="@+id/p_fine1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/eight"
+            android:layout_below="@+id/seven"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Book 2 Fine                    :      "
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:text="Book 2 fine"
+                android:id="@+id/p_fine2"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Refresh"
+            android:layout_below="@+id/eight"
+            android:id="@+id/refreashbook"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

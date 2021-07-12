@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_news_page.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_news_page.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fisrt_retrofit.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_fisrt_retrofit.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_home.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_admin_home.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_books.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_books.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\profile.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\profile.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_books.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\my_books.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\inflatenews.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\inflatenews.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\inflate_library_books.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\inflate_library_books.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_add_news.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\content_add_news.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\library_books.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\library_books.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main__page.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_main__page.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\news.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\news.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_news.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_add_news.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lib_login.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_lib_login.xml"
+    },
+    {
+        "merged": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "E:\\DProject\\Library-management-System-app-master\\Library-management-System-app-master\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    }
+]

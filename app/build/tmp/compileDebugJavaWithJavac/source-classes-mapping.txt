@@ -1,0 +1,143 @@
+com/example/librarymanagement/databinding/MyBooksBinding.java
+ com.example.librarymanagement.databinding.MyBooksBinding
+com/example/librarymanagement/databinding/ProfileBinding.java
+ com.example.librarymanagement.databinding.ProfileBinding
+com/example/librarymanagement/databinding/InflatenewsBinding.java
+ com.example.librarymanagement.databinding.InflatenewsBinding
+com/example/librarymanagement/MySingleton.java
+ com.example.librarymanagement.MySingleton
+com/example/librarymanagement/databinding/ActivityAddNewsBinding.java
+ com.example.librarymanagement.databinding.ActivityAddNewsBinding
+com/example/librarymanagement/databinding/LibraryBooksBinding.java
+ com.example.librarymanagement.databinding.LibraryBooksBinding
+com/example/librarymanagement/Books.java
+ com.example.librarymanagement.Books
+com/example/librarymanagement/NewsPage.java
+ com.example.librarymanagement.NewsPage
+com/example/librarymanagement/databinding/ActivityProfileBinding.java
+ com.example.librarymanagement.databinding.ActivityProfileBinding
+com/example/librarymanagement/Singleton_for_books.java
+ com.example.librarymanagement.Singleton_for_books
+com/example/librarymanagement/databinding/ActivityFisrtRetrofitBinding.java
+ com.example.librarymanagement.databinding.ActivityFisrtRetrofitBinding
+com/example/librarymanagement/databinding/ActivityAdminHomeBinding.java
+ com.example.librarymanagement.databinding.ActivityAdminHomeBinding
+com/example/librarymanagement/databinding/FragmentFirstBinding.java
+ com.example.librarymanagement.databinding.FragmentFirstBinding
+com/example/librarymanagement/Library_book_adapter.java
+ com.example.librarymanagement.Library_book_adapter
+com/example/librarymanagement/databinding/ActivityBooksBinding.java
+ com.example.librarymanagement.databinding.ActivityBooksBinding
+com/example/librarymanagement/databinding/InflateLibraryBooksBinding.java
+ com.example.librarymanagement.databinding.InflateLibraryBooksBinding
+com/example/librarymanagement/databinding/NavHeaderBinding.java
+ com.example.librarymanagement.databinding.NavHeaderBinding
+com/example/librarymanagement/databinding/FragmentSecondBinding.java
+ com.example.librarymanagement.databinding.FragmentSecondBinding
+com/example/librarymanagement/databinding/ActivityMainPageBinding.java
+ com.example.librarymanagement.databinding.ActivityMainPageBinding
+com/example/librarymanagement/databinding/ActivityLibLoginBinding.java
+ com.example.librarymanagement.databinding.ActivityLibLoginBinding
+com/example/librarymanagement/FirstFragment.java
+ com.example.librarymanagement.FirstFragment
+ com.example.librarymanagement.FirstFragment$1
+com/example/librarymanagement/FisrtRetrofit.java
+ com.example.librarymanagement.FisrtRetrofit
+ com.example.librarymanagement.FisrtRetrofit$1
+com/example/librarymanagement/databinding/ContentAddNewsBinding.java
+ com.example.librarymanagement.databinding.ContentAddNewsBinding
+com/example/librarymanagement/Modal_books.java
+ com.example.librarymanagement.Modal_books
+com/example/librarymanagement/SecondFragment.java
+ com.example.librarymanagement.SecondFragment
+ com.example.librarymanagement.SecondFragment$1
+com/example/librarymanagement/databinding/ActivitySignupBinding.java
+ com.example.librarymanagement.databinding.ActivitySignupBinding
+com/example/librarymanagement/databinding/ActivityMainBinding.java
+ com.example.librarymanagement.databinding.ActivityMainBinding
+com/example/librarymanagement/Modal_News.java
+ com.example.librarymanagement.Modal_News
+com/example/librarymanagement/databinding/NewsBinding.java
+ com.example.librarymanagement.databinding.NewsBinding
+com/example/librarymanagement/Post.java
+ com.example.librarymanagement.Post
+com/example/librarymanagement/NewsAdapter.java
+ com.example.librarymanagement.NewsAdapter
+ com.example.librarymanagement.NewsAdapter$1
+ com.example.librarymanagement.NewsAdapter$ItemClickListener
+ com.example.librarymanagement.NewsAdapter$ViewHolder
+com/example/librarymanagement/databinding/ActivityNewsPageBinding.java
+ com.example.librarymanagement.databinding.ActivityNewsPageBinding
+com/example/librarymanagement/Shareprefences.java
+ com.example.librarymanagement.Shareprefences
+com/example/librarymanagement/BuildConfig.java
+ com.example.librarymanagement.BuildConfig
+com/example/librarymanagement/JsonPlaceholderApi.java
+ com.example.librarymanagement.JsonPlaceholderApi
+com/example/librarymanagement/Main_Page.java
+ com.example.librarymanagement.Main_Page
+ com.example.librarymanagement.Main_Page$1
+com/example/librarymanagement/LibLogin.java
+ com.example.librarymanagement.LibLogin
+ com.example.librarymanagement.LibLogin$1
+ com.example.librarymanagement.LibLogin$2
+ com.example.librarymanagement.LibLogin$3
+ com.example.librarymanagement.LibLogin$4
+ com.example.librarymanagement.LibLogin$5
+ com.example.librarymanagement.LibLogin$6
+ com.example.librarymanagement.LibLogin$7
+ com.example.librarymanagement.LibLogin$8
+com/example/librarymanagement/AdminHome.java
+ com.example.librarymanagement.AdminHome
+ com.example.librarymanagement.AdminHome$1
+ com.example.librarymanagement.AdminHome$2
+ com.example.librarymanagement.AdminHome$3
+ com.example.librarymanagement.AdminHome$4
+ com.example.librarymanagement.Semester
+ com.example.librarymanagement.departments
+com/example/librarymanagement/MainActivity.java
+ com.example.librarymanagement.MainActivity
+ com.example.librarymanagement.MainActivity$1
+ com.example.librarymanagement.MainActivity$2
+ com.example.librarymanagement.MainActivity$3
+ com.example.librarymanagement.MainActivity$4
+ com.example.librarymanagement.MainActivity$5
+ com.example.librarymanagement.MainActivity$6
+ com.example.librarymanagement.MainActivity$7
+ com.example.librarymanagement.MainActivity$8
+com/example/librarymanagement/Signup.java
+ com.example.librarymanagement.Sem
+ com.example.librarymanagement.Signup
+ com.example.librarymanagement.Signup$1
+ com.example.librarymanagement.Signup$2
+ com.example.librarymanagement.Signup$3
+ com.example.librarymanagement.Signup$4
+ com.example.librarymanagement.Signup$5
+ com.example.librarymanagement.Signup$6
+ com.example.librarymanagement.departs
+com/example/librarymanagement/Library_books.java
+ com.example.librarymanagement.Library_books
+ com.example.librarymanagement.Library_books$1
+ com.example.librarymanagement.Library_books$2
+ com.example.librarymanagement.Library_books$2$1
+ com.example.librarymanagement.Library_books$3
+ com.example.librarymanagement.Library_books$4
+com/example/librarymanagement/Profile.java
+ com.example.librarymanagement.Profile
+ com.example.librarymanagement.Profile$1
+ com.example.librarymanagement.Profile$2
+ com.example.librarymanagement.Profile$3
+ com.example.librarymanagement.Profile$4
+com/example/librarymanagement/My_books.java
+ com.example.librarymanagement.My_books
+ com.example.librarymanagement.My_books$1
+ com.example.librarymanagement.My_books$2
+ com.example.librarymanagement.My_books$3
+ com.example.librarymanagement.My_books$4
+com/example/librarymanagement/RetrofitClients.java
+ com.example.librarymanagement.RetrofitClients
+com/example/librarymanagement/News.java
+ com.example.librarymanagement.News
+ com.example.librarymanagement.News$1
+ com.example.librarymanagement.News$2
+ com.example.librarymanagement.News$3

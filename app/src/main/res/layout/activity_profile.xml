@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="NAME                                :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:id="@+id/p_name"
+            android:text="Name"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="SURNAME                        :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="SURNAME"
+            android:id="@+id/p_surname"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="MOBILE                            :      "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="MOBILE"
+            android:id="@+id/p_moblie"
+
+            />
+
+    </LinearLayout> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="250dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="DEPARTMENT                :      "
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="DEPARTMENT"
+        android:id="@+id/p_department"
+        />
+
+</LinearLayout> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="300dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="SEMESTER                       :      "
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="SEM"
+        android:id="@+id/p_sem"
+        />
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="350dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="ENROLLMENT                :      "
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="ENROLL"
+        android:id="@+id/p_enroll"
+        />
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Books">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/toolbar1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image_books"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/image_books"
+        android:id="@+id/name"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Book Name"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="data"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/library_books_name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/author"
+        android:layout_below="@+id/name"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:text="Book Code"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="data"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/library_books_code"/>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/code"
+        android:layout_marginTop="10dp"
+
+        android:layout_below="@+id/author"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:text="Book Author"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="data"
+            android:id="@+id/library_books_author"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_below="@+id/code"
+        android:id="@+id/sem"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:text="Semester"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="data"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/library_books_sem"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/dept"
+        android:layout_below="@+id/sem"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:text="Department"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:text="data"
+            android:id="@+id/library_books_dept"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/price"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dept"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:text="Book Price"
+
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="data"
+            android:id="@+id/library_books_price"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/count"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/price"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:text="Book Count"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="data"
+            android:textSize="20dp"
+
+            android:layout_weight="1"
+            android:id="@+id/library_books_count"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

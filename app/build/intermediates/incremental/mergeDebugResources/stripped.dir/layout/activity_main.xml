@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/strip1"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/relaytive"
+        >
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_marginRight="30dp"
+           android:layout_marginLeft="30dp"
+           android:src="@drawable/logo"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_marginTop="300dp">
+
+        <RelativeLayout
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/loginbackground"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/l_email"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:hint="Email or Enrollment" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/loginbackground"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/l_password"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="10"
+                android:background="@null"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                />
+
+            <Button
+                android:id="@+id/eyes"
+                android:layout_width="26dp"
+                android:layout_height="22dp"
+                android:layout_weight="1"
+                android:background="@drawable/eyesclose" />
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/backgroundbutton"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/login"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="Don't have an account? Sign up "
+            android:textAlignment="center"
+            android:textColor="@color/darkblue" />
+
+        <TextView
+            android:id="@+id/student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="21dp"
+            android:text="@string/librarian"
+            android:textColor="@color/darkblue" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
