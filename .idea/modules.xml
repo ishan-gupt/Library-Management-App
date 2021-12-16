@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Library-management-System-app-master.iml" filepath="$PROJECT_DIR$/.idea/Library-management-System-app-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Library-management-System-app-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Library-management-System-app-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library-Management-App.iml" filepath="$PROJECT_DIR$/.idea/modules/Library-Management-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Library-Management-App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Library-Management-App.app.iml" />
     </modules>
   </component>
 </project>
