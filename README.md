@@ -5,7 +5,7 @@ register your profile and see available books in library and it help user to not
 
 Setup of project
 Xampp required.
-Database and file of backend PHP are in ExtraSetup folder(https://github.com/ishan-gupt/Library-Management-App/tree/main/ExtraSetup).
-Put Android in local machine in xampp folder (commonly as "C:\xampp\htdocs\Android").
-and add database to phpmyadmin from (https://github.com/ishan-gupt/Library-Management-App/blob/main/ExtraSetup/database/library_management_system.sql)
+Database and file of backend PHP are in ExtraSetup folder(https://github.com/ishan-gupt/Library-Management-App/tree/main/ExtraSetup).<br>
+Put Android in local machine in xampp folder (commonly as "C:\xampp\htdocs\Android").<br>
+and add database to phpmyadmin from (https://github.com/ishan-gupt/Library-Management-App/blob/main/ExtraSetup/database/library_management_system.sql).<br>
 run the server in local host and test android application.
