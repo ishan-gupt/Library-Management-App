@@ -1,0 +1,31 @@
+<?php
+	require_once "config.php";
+    $sql = "SELECT news_image FROM news"; 
+    $result = mysqli_query($con, $sql);
+?>
+<html>
+<body>
+
+<form action="Fetch_books.php">
+
+<input type="text" placeholder="Code" name="book_code"><br>
+<input type="text" placeholder="Semester" name="book_sem"><br>
+<input type="text" placeholder="Name" name="book_name"><br>
+<input type="submit" name="ok" value="ok">
+
+</form>
+
+<br><br><br>
+
+<?php
+	while($row = mysqli_fetch_array($result)) {
+	?>
+		<img src="Fetch_books.php?news_image=<?php echo $row['news_id']; ?>" /><br/>
+
+<?php		
+	}
+    mysqli_close($con);
+    ?>
+
+</body>
+</html>
